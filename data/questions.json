@@ -1,0 +1,505 @@
+{
+  "questions": {
+    "html-questions": [
+      {
+        "question": "What does HTML stand for?",
+        "options": [
+          "Hyperlinks and Text Markup Language",
+          "Home Tool Markup Language",
+          "Hyper Text Markup Language",
+          "Hyper Tool Markup Language"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Who is making the Web standards?",
+        "options": [
+          "Microsoft",
+          "Mozilla",
+          "The World Wide Web Consortium",
+          "Google"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Choose the correct HTML element for the largest heading:",
+        "options": ["<h6>", "<head>", "<h1>", "<heading>"],
+        "correctOption": 2
+      },
+      {
+        "question": "What is the correct HTML element for inserting a line break?",
+        "options": ["<br>", "<lb>", "<break>", "<hr>"],
+        "correctOption": 0
+      },
+      {
+        "question": "What is the correct HTML for adding a background color?",
+        "options": [
+          "<body style=\"background-color:yellow;\">",
+          "<body bg=\"yellow\">",
+          "<background>yellow</background>",
+          "<body background=\"yellow\">"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Choose the correct HTML element to define important text:",
+        "options": ["<important>", "<b>", "<i>", "<strong>"],
+        "correctOption": 3
+      },
+      {
+        "question": "How can you make a numbered list?",
+        "options": ["<ul>", "<list>", "<ol>", "<dl>"],
+        "correctOption": 2
+      },
+      {
+        "question": "How can you make a bulleted list?",
+        "options": ["<list>", "<ol>", "<ul>", "<dl>"],
+        "correctOption": 2
+      },
+      {
+        "question": "What is the correct HTML for creating a hyperlink?",
+        "options": [
+          "<a>http://www.example.com</a>",
+          "<a url=\"http://www.example.com\">Example</a>",
+          "<a href=\"http://www.example.com\">Example</a>",
+          "<a name=\"http://www.example.com\">Example</a>"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "How can you open a link in a new tab/browser window?",
+        "options": [
+          "<a href=\"url\" target=\"new\">",
+          "<a href=\"url\" target=\"_new\">",
+          "<a href=\"url\" new>",
+          "<a href=\"url\" target=\"_blank\">"
+        ],
+        "correctOption": 3
+      },
+      {
+        "question": "Which HTML element is used to specify a footer for a document or section?",
+        "options": ["<bottom>", "<footer>", "<foot>", "<section>"],
+        "correctOption": 1
+      },
+      {
+        "question": "What is the correct HTML for creating a text input field?",
+        "options": [
+          "<input type=\"text\">",
+          "<textinput>",
+          "<input type=\"textfield\">",
+          "<textfield>"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "What is the correct HTML element for playing video files?",
+        "options": ["<media>", "<video>", "<movie>", "<film>"],
+        "correctOption": 1
+      },
+      {
+        "question": "Which of these elements are all <table> elements?",
+        "options": [
+          "<table>, <tr>, <tt>",
+          "<thead>, <body>, <tr>",
+          "<table>, <tr>, <td>",
+          "<table>, <head>, <tfoot>"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "What does the <iframe> tag do?",
+        "options": [
+          "Embeds an image into the page",
+          "Embeds a video into the page",
+          "Embeds a document into the page",
+          "Embeds another HTML page within the current page"
+        ],
+        "correctOption": 3
+      }
+    ],
+
+    "javascript-questions": [
+      {
+        "question": "Inside which HTML element do we put the JavaScript?",
+        "options": ["<js>", "<scripting>", "<script>", "<javascript>"],
+        "correctOption": 2
+      },
+      {
+        "question": "What is the correct JavaScript syntax to change the content of the HTML element below?\n<p id=\"demo\">This is a demonstration.</p>",
+        "options": [
+          "document.getElementByName(\"p\").innerHTML = \"Hello World!\";",
+          "document.getElementById(\"demo\").innerHTML = \"Hello World!\";",
+          "#demo.innerHTML = \"Hello World!\";",
+          "document.getElementById(\"p\").innerHTML = \"Hello World!\";"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Where is the correct place to insert a JavaScript?",
+        "options": [
+          "The <body> section",
+          "Both the <head> section and the <body> section are correct",
+          "The <head> section",
+          "The <footer> section"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What is the correct syntax for referring to an external script called \"xxx.js\"?",
+        "options": [
+          "<script href=\"xxx.js\">",
+          "<script name=\"xxx.js\">",
+          "<script src=\"xxx.js\">",
+          "<script file=\"xxx.js\">"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "The external JavaScript file must contain the <script> tag.",
+        "options": ["True", "False"],
+        "correctOption": 1
+      },
+      {
+        "question": "How do you write \"Hello World\" in an alert box?",
+        "options": [
+          "alertBox(\"Hello World\");",
+          "msg(\"Hello World\");",
+          "alert(\"Hello World\");",
+          "msgBox(\"Hello World\");"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "How do you create a function in JavaScript?",
+        "options": [
+          "function myFunction()",
+          "function = myFunction()",
+          "function:myFunction()",
+          "function => myFunction()"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "How do you call a function named \"myFunction\"?",
+        "options": [
+          "call function myFunction()",
+          "call myFunction()",
+          "myFunction()",
+          "Call.myFunction()"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "How to write an IF statement in JavaScript?",
+        "options": [
+          "if i == 5 then",
+          "if (i == 5)",
+          "if i = 5 then",
+          "if i = 5"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "How to write an IF statement for executing some code if \"i\" is NOT equal to 5?",
+        "options": [
+          "if (i != 5)",
+          "if i <> 5",
+          "if (i <> 5)",
+          "if i =! 5 then"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "How does a WHILE loop start?",
+        "options": [
+          "while (i <= 10; i++)",
+          "while i = 1 to 10",
+          "while (i <= 10)",
+          "while i <= 10"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "How does a FOR loop start?",
+        "options": [
+          "for (i = 0; i <= 5; i++)",
+          "for i = 1 to 5",
+          "for (i <= 5; i++)",
+          "for (i = 0; i <= 5)"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "How can you add a comment in JavaScript?",
+        "options": [
+          "'This is a comment",
+          "<!-- This is a comment -->",
+          "// This is a comment",
+          "** This is a comment"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "How to insert a comment that has more than one line?",
+        "options": [
+          "// This comment has more than one line //",
+          "/* This comment has more than one line */",
+          "<!-- This comment has more than one line -->",
+          "** This comment has more than one line **"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "What is the correct way to write a JavaScript array?",
+        "options": [
+          "var colors = \"red\", \"green\", \"blue\"",
+          "var colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")",
+          "var colors = (1:\"red\", 2:\"green\", 3:\"blue\")",
+          "var colors = [\"red\", \"green\", \"blue\"]"
+        ],
+        "correctOption": 3
+      }
+    ],
+
+    "css-questions": [
+      {
+        "question": "What does CSS stand for?",
+        "options": [
+          "Colorful Style Sheets",
+          "Cascading Style Sheets",
+          "Creative Style Sheets",
+          "Computer Style Sheets"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "Which HTML attribute is used to define inline styles?",
+        "options": ["style", "class", "styles", "font"],
+        "correctOption": 0
+      },
+      {
+        "question": "Which is the correct CSS syntax?",
+        "options": [
+          "{body;color:black;}",
+          "body {color: black;}",
+          "{body:color=black;}",
+          "body:color=black;"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "How do you insert a comment in a CSS file?",
+        "options": [
+          "/* this is a comment */",
+          "// this is a comment",
+          "' this is a comment",
+          "<!-- this is a comment -->"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which property is used to change the background color?",
+        "options": ["bgcolor", "color", "background-color", "background"],
+        "correctOption": 2
+      },
+      {
+        "question": "How do you add a background color for all <h1> elements?",
+        "options": [
+          "h1 {background-color:#FFFFFF;}",
+          "h1.all {background-color:#FFFFFF;}",
+          "all.h1 {background-color:#FFFFFF;}",
+          "all.h1 {bgcolor:#FFFFFF;}"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which CSS property is used to change the text color of an element?",
+        "options": ["fgcolor", "text-color", "color", "font-color"],
+        "correctOption": 2
+      },
+      {
+        "question": "Which CSS property controls the text size?",
+        "options": ["font-size", "text-style", "text-size", "font-style"],
+        "correctOption": 0
+      },
+      {
+        "question": "What is the correct syntax for making all the <p> elements bold?",
+        "options": [
+          "p {text-size:bold;}",
+          "p {font-weight:bold;}",
+          "p {font:bold;}",
+          "p {text-weight:bold;}"
+        ],
+        "correctOption": 1
+      },
+      {
+        "question": "How do you display a border like this: The top border = 10 pixels, the bottom border = 5 pixels, the left border = 20 pixels, and the right border = 1pixel?",
+        "options": [
+          "border-width:10px 1px 5px 20px;",
+          "border-width:10px 20px 5px 1px;",
+          "border-width:10px 5px 20px 1px;",
+          "border-width:5px 20px 10px 1px;"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which property is used to change the font of an element?",
+        "options": ["font-style", "font-family", "font-weight", "font-variant"],
+        "correctOption": 1
+      },
+      {
+        "question": "How do you make each word in a text start with a capital letter?",
+        "options": [
+          "text-transform:capitalize",
+          "text-transform:uppercase",
+          "text-transform:lowercase",
+          "text-transform:initial"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "Which property is used to change the left margin of an element?",
+        "options": ["margin-left", "padding-left", "indent", "margin"],
+        "correctOption": 0
+      },
+      {
+        "question": "When using the padding property, are you allowed to use negative values?",
+        "options": ["Yes", "No"],
+        "correctOption": 1
+      },
+      {
+        "question": "How do you make a list that lists its items with squares?",
+        "options": [
+          "list-type: square;",
+          "list-style-type: square;",
+          "list-style: square;",
+          "list: square;"
+        ],
+        "correctOption": 1
+      }
+    ],
+
+    "react-questions": [
+      {
+        "question": "Which is the most popular JavaScript framework?",
+        "options": ["Angular", "React", "Svelte", "Vue"],
+        "correctOption": 1
+      },
+      {
+        "question": "Which company invented React?",
+        "options": ["Google", "Apple", "Netflix", "Facebook"],
+        "correctOption": 3
+      },
+      {
+        "question": "What's the fundamental building block of React apps?",
+        "options": ["Components", "Blocks", "Elements", "Effects"],
+        "correctOption": 0
+      },
+      {
+        "question": "What's the name of the syntax we use to describe the UI in React components?",
+        "options": ["FBJ", "Babel", "JSX", "ES2015"],
+        "correctOption": 2
+      },
+      {
+        "question": "How does data flow naturally in React apps?",
+        "options": [
+          "From parents to children",
+          "From children to parents",
+          "Both ways",
+          "The developers decides"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "How to pass data into a child component?",
+        "options": ["State", "Props", "PropTypes", "Parameters"],
+        "correctOption": 1
+      },
+      {
+        "question": "When to use derived state?",
+        "options": [
+          "Whenever the state should not trigger a re-render",
+          "Whenever the state can be synchronized with an effect",
+          "Whenever the state should be accessible to all components",
+          "Whenever the state can be computed from another state variable"
+        ],
+        "correctOption": 3
+      },
+      {
+        "question": "What triggers a UI re-render in React?",
+        "options": [
+          "Running an effect",
+          "Passing props",
+          "Updating state",
+          "Adding event listeners to DOM elements"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "When do we directly \"touch\" the DOM in React?",
+        "options": [
+          "When we need to listen to an event",
+          "When we need to change the UI",
+          "When we need to add styles",
+          "Almost never"
+        ],
+        "correctOption": 3
+      },
+      {
+        "question": "In what situation do we use a callback to update state?",
+        "options": [
+          "When updating the state will be slow",
+          "When the updated state is very data-intensive",
+          "When the state update should happen faster",
+          "When the new state depends on the previous state"
+        ],
+        "correctOption": 3
+      },
+      {
+        "question": "If we pass a function to useState, when will that function be called?",
+        "options": [
+          "On each re-render",
+          "Each time we update the state",
+          "Only on the initial render",
+          "The first time we update the state"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "Which hook to use for an API request on the component's initial render?",
+        "options": ["useState", "useEffect", "useRef", "useReducer"],
+        "correctOption": 1
+      },
+      {
+        "question": "Which variables should go into the useEffect dependency array?",
+        "options": [
+          "Usually none",
+          "All our state variables",
+          "All state and props referenced in the effect",
+          "All variables needed for clean up"
+        ],
+        "correctOption": 2
+      },
+      {
+        "question": "An effect will always run on the initial render.",
+        "options": [
+          "True",
+          "It depends on the dependency array",
+          "False",
+          "In depends on the code in the effect"
+        ],
+        "correctOption": 0
+      },
+      {
+        "question": "When will an effect run if it doesn't have a dependency array?",
+        "options": [
+          "Only when the component mounts",
+          "Only when the component unmounts",
+          "The first time the component re-renders",
+          "Each time the component is re-rendered"
+        ],
+        "correctOption": 3
+      }
+    ]
+  }
+}

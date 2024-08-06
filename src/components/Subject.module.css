@@ -1,0 +1,61 @@
+.box {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  gap: 0.5rem;
+  padding: 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  /* z-index: -11; */
+  position: relative;
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+.box::after,
+.box::before {
+  content: "";
+  background-image: conic-gradient(from var(--angle), transparent 70%, blue);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 0.3rem;
+  border-radius: 8px;
+
+  animation: 3s spin linear infinite;
+}
+
+.box::before {
+  filter: blur(1rem);
+  opacity: 0.5;
+}
+
+@keyframes spin {
+  from {
+    --angle: 0deg;
+  }
+  to {
+    --angle: 360deg;
+  }
+}
+
+.subjectImg {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.subjectText {
+  text-transform: uppercase;
+}
